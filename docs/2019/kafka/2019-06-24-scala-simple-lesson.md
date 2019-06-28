@@ -66,7 +66,7 @@ Scala 运行环境依赖于 JVM，所以要先安装 Java。之后再安装 Scal
 
 这里我选择 1.8 版本，根据自己的操作系统选择合适的下载包。
 
-![JDk 1.8](/images/2019/jdk_18.png)
+![JDk 1.8](https://blog.text.wiki/images/2019/jdk_18.png)
 
 设置环境变量的教程在这里：[https://www.runoob.com/java/java-environment-setup.html](https://www.runoob.com/java/java-environment-setup.html)
 
@@ -892,7 +892,7 @@ huh?
 
 我们先看下调用示例图：
 
-![akka demo调用示例](/images/2019/akka_demo_1.png)
+![akka demo调用示例](https://blog.text.wiki/images/2019/akka_demo_1.png)
 
 第 4 至 9 行，定义了 `HelloActor` 的类。`HelloActor` 继承在 `Actor` 类，实现了 `receive` 方法。该方法根据传递过来的字符串，做出不同的动作。
 
@@ -1050,11 +1050,11 @@ akka-quickstart-scala [INFO] [06/25/2019 20:16:04.502] [helloAkka-akka.actor.def
 
 我们先直观地看下这个文件的大体框架，如下图所示。
 
-![akka demo 架构图](/images/2019/hello-akka-architecture.png)
+![akka demo 架构图](https://blog.text.wiki/images/2019/hello-akka-architecture.png)
 
 首先 main 类创建了ActorSystem 容器，然后创建了三个 Greeter Actor 实例和一个 Printer Actor 实例。
 
-![akka消息传递](/images/2019/hello-akka-messages.png)
+![akka消息传递](https://blog.text.wikihttps://blog.text.wiki/images/2019/hello-akka-messages.png)
 
 main 类首先将消息传递给三个 Greeter Actor，然后三个 Greeter Actor 分别再将消息传递给 Printer Actor，并由 Printer Actor 将消息打印出来。
 
