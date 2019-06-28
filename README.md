@@ -1,2 +1,2 @@
-# didimis.github.io
-didimis
+为学日进。
+此博客记录学习内容。

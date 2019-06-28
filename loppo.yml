@@ -1,0 +1,8 @@
+dir: docs
+output: dist
+site: 滴滴 MIS 团队技术博客
+theme: oceandeep
+customization: false
+themeDir: loppo-theme
+direction: ltr
+id: didimis.github.io
